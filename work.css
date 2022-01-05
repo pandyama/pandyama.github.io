@@ -14,6 +14,97 @@ body {
 
 
 
+
+.course {
+	background-color: #fff;
+	border-radius: 10px;
+	/* box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2); */
+	box-shadow: 7px 10px 24px 5px rgba(0,0,0,0.5);
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	/* width: 700px; */
+	width: 50em;
+}
+
+.course h6 {
+	opacity: 0.8;
+	margin: 0;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 12px;
+}
+
+li{
+	margin: 0.8em;
+}
+
+.course h5{
+	font-size: 15px;
+	font-weight: 200;
+}
+
+.course h2 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+
+.course-preview {
+	background-color: #2A265F;
+	color: #fff;
+	padding: 30px;
+	width: 20em;
+	/* max-width: 250px; */
+}
+
+.course-info {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+}
+
+
+
+
+
+@media all and (max-width: 1000px){
+	.course {
+		background-color: #fff;
+		border-radius: 10px;
+		/* box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2); */
+		box-shadow: 7px 10px 24px 5px rgba(0,0,0,0.5);
+		display: flex;
+		max-width: 100%;
+		width: fit-content;
+	}
+	
+	.course h5{
+		font-size: 12px;
+		font-weight: 200;
+	}
+	
+	.course h2 {
+		letter-spacing: 1px;
+		/* margin: 10px 0; */
+	}
+	
+	.course-preview {
+		background-color: #2A265F;
+		color: #fff;
+		/* padding: 30px; */
+		width: 10em;
+	}
+	
+	.course-info {
+		padding: 30px;
+		position: relative;
+		width:  50%;
+	}
+}
+
+
 .button {
 	/* --color: #00A97F; */
 	--color: #2f2fa2;
@@ -72,10 +163,6 @@ body {
    .button:active {
 	filter: brightness(.8);
    }
-
-
-
-
 
 
 
@@ -305,55 +392,7 @@ body {
 
 
 
-.course {
-	background-color: #fff;
-	border-radius: 10px;
-	/* box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2); */
-	box-shadow: 7px 10px 24px 5px rgba(0,0,0,0.5);
-	display: flex;
-	max-width: 100%;
-	margin: 20px;
-	overflow: hidden;
-	/* width: 700px; */
-	width: 50em;
-}
 
-.course h6 {
-	opacity: 0.8;
-	margin: 0;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	font-weight: 100;
-	font-size: 12px;
-}
-
-li{
-	margin: 0.8em;
-}
-
-.course h5{
-	font-size: 15px;
-	font-weight: 200;
-}
-
-.course h2 {
-	letter-spacing: 1px;
-	margin: 10px 0;
-}
-
-.course-preview {
-	background-color: #2A265F;
-	color: #fff;
-	padding: 30px;
-	width: 20em;
-	/* max-width: 250px; */
-}
-
-.course-info {
-	padding: 30px;
-	position: relative;
-	width: 100%;
-}
 
 @media screen and (max-width: 480px) {
 
