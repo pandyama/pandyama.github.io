@@ -1,21 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap");
 
 body {
-	font-family: "Arima Madurai", sans-serif;
+	font-family: "Catamaran", sans-serif;
 }
-
-
-
 
 .course {
 	/* background-color: #fff; */
-	background-color: #2A265F;
+	background-color: #2a265f;
 	color: #fff;
 	border-radius: 10px;
 	/* box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2); */
-	box-shadow: 7px 10px 24px 5px rgba(0,0,0,0.5);
+	box-shadow: 7px 10px 24px 5px rgba(0, 0, 0, 0.5);
 	display: flex;
 	max-width: 100%;
 	margin: 20px;
@@ -29,15 +25,15 @@ body {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-weight: 100;
-	font-size: 12px;
+	font-size: 18px;
 }
 
-li{
+li {
 	margin: 0.8em;
 }
 
-.course h5{
-	font-size: 15px;
+.course h5 {
+	font-size: 18px;
 	font-weight: 200;
 }
 
@@ -60,75 +56,58 @@ li{
 	width: 100%;
 }
 
-
-
-
-
-
-@media all and (max-width: 1000px){
+@media all and (max-width: 1000px) {
 	.course {
 		/* background-color: #fff; */
 		border-radius: 10px;
 		/* box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2); */
-		box-shadow: 7px 10px 24px 5px rgba(0,0,0,0.5);
+		box-shadow: 7px 10px 24px 5px rgba(0, 0, 0, 0.5);
 		display: flex;
 		max-width: 100%;
 		width: fit-content;
 	}
-	
-	.course h5{
-		font-size: 12px;
+
+	.course h5 {
+		font-size: 15px;
 		font-weight: 200;
 	}
-	
+
 	.course h2 {
 		letter-spacing: 1px;
-		/* margin: 10px 0; */
 	}
-	
+
 	.course-preview {
-		/* background-color: #2A265F;
-		color: #fff; */
-		/* padding: 30px; */
 		width: 10em;
 	}
-	
+
 	.course-info {
 		padding: 30px;
 		position: relative;
-		width:  50%;
+		width: 50%;
 	}
 }
 
-
-
-
-
-
-
 .button {
-	/* --color: #00A97F; */
 	--color: #2f2fa2;
 	padding: 8px;
 	background-color: transparent;
-	border-radius: .3em;
+	border-radius: 0.3em;
 	position: relative;
 	overflow: hidden;
 	cursor: pointer;
-	transition: .3s;
-	/* font-weight: bold; */
+	transition: 0.3s;
 	font-size: 23px;
 	border: none;
 	text-decoration: underline;
-	font-family: inherit;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	color: var(--color);
 	z-index: 1;
-   }
-   
-   .button::before, .button::after {
-	content: '';
+}
+
+.button::before,
+.button::after {
+	content: "";
 	display: block;
 	width: 50px;
 	height: 50px;
@@ -138,58 +117,35 @@ li{
 	z-index: -1;
 	background-color: var(--color);
 	transition: 0.8s ease;
-   }
-   
-   .button::before {
+}
+
+.button::before {
 	top: -1em;
 	left: -1em;
-   }
-   
-   .button::after {
+}
+
+.button::after {
 	left: calc(100% + 1em);
 	top: calc(100% + 1em);
-   }
-   
-   .button:hover::before, .button:hover::after {
+}
+
+.button:hover::before,
+.button:hover::after {
 	height: 410px;
 	width: 410px;
-   }
-   
-   .button:hover {
+}
+
+.button:hover {
 	/* color: rgb(10, 25, 30); */
 	color: white;
 	text-decoration: none;
-   }
-   
-   .button:active {
-	filter: brightness(.8);
-   }
+}
 
+.button:active {
+	filter: brightness(0.8);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.jobs{
+.jobs {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -204,8 +160,8 @@ li{
 	height: 100%;
 	overflow: hidden;
 	z-index: -1;
-  }
-  .circles li {
+}
+.circles li {
 	position: absolute;
 	display: block;
 	list-style: none;
@@ -214,142 +170,147 @@ li{
 	background: rgba(0, 0, 0, 0.2);
 	animation: animate 25s linear infinite;
 	bottom: -150px;
-  }
-  .circles li:nth-child(1) {
+}
+.circles li:nth-child(1) {
 	left: 25%;
 	width: 80px;
 	height: 80px;
 	animation-delay: 0s;
-  }
-  .circles li:nth-child(2) {
+}
+.circles li:nth-child(2) {
 	left: 10%;
 	width: 20px;
 	height: 20px;
 	animation-delay: 2s;
 	animation-duration: 12s;
-  }
-  .circles li:nth-child(3) {
+}
+.circles li:nth-child(3) {
 	left: 70%;
 	width: 20px;
 	height: 20px;
 	animation-delay: 4s;
-  }
-  .circles li:nth-child(4) {
+}
+.circles li:nth-child(4) {
 	left: 40%;
 	width: 60px;
 	height: 60px;
 	animation-delay: 0s;
 	animation-duration: 18s;
-  }
-  .circles li:nth-child(5) {
+}
+.circles li:nth-child(5) {
 	left: 65%;
 	width: 20px;
 	height: 20px;
 	animation-delay: 0s;
-  }
-  @keyframes animate {
+}
+@keyframes animate {
 	0% {
-	  transform: translateY(-1300px) rotate(0deg);
-	  opacity: 1;
-	  border-radius: 20%;
+		transform: translateY(-1300px) rotate(0deg);
+		opacity: 1;
+		border-radius: 20%;
 	}
 	100% {
-	  transform: translateY(0) rotate(720deg);
-	  opacity: 0;
-	  border-radius: 50%;
+		transform: translateY(0) rotate(720deg);
+		opacity: 0;
+		border-radius: 50%;
 	}
-  }
-  .introduction-section, .location-section, .questions-section {
+}
+.introduction-section,
+.location-section,
+.questions-section {
 	max-width: 38em;
 	margin-left: auto;
 	margin-right: auto;
-  }
-  .introduction-section > p, .location-section > p, .questions-section, .content-footer > p {
+}
+.introduction-section > p,
+.location-section > p,
+.questions-section,
+.content-footer > p {
 	letter-spacing: 0.05em;
-  }
-  .questions-section > h2 {
+}
+.questions-section > h2 {
 	font-size: 1.4em;
 	font-weight: bold;
 	/* Layout */
 	font-style: italic;
 	margin: 2em 0 1em 0;
-  }
-  section > h1 {
+}
+section > h1 {
 	font-size: 1.6em;
-  }
-  .content-footer, .masthead-heading, .masthead-intro {
+}
+.content-footer,
+.masthead-heading,
+.masthead-intro {
 	text-align: center;
-  }
-  .content-footer {
+}
+.content-footer {
 	margin: 50px 0;
 	padding: 20px 0;
 	text-align: center;
 	background-color: white;
 	text-decoration: none;
-  }
-  .social > li {
+}
+.social > li {
 	display: inline-block;
 	margin: 0 7px;
 	padding: 0.7em;
 	border: 1px none black;
 	border-radius: 5px;
-  }
-  .github {
+}
+.github {
 	background-color: #6cc644;
-  }
-  .instagram {
+}
+.instagram {
 	background-color: #bc2a8d;
-  }
-  .linkedin {
+}
+.linkedin {
 	background-color: #0077b5;
-  }
-  .content-footer > p {
-	font-size: 1.3em;
+}
+.content-footer > p {
+	font-size: 1.6em;
 	font-weight: bold;
 	color: black;
-  }
-  .social > li > a {
-	font-size: 1.3em;
+}
+.social > li > a {
+	font-size: 1.6em;
 	text-decoration: none;
 	color: white;
-  }
-  .splash {
+}
+.splash {
 	margin-right: 0px;
-  }
-  .path1 {
+}
+.path1 {
 	overflow: visible;
 	position: absolute;
-  }
-  header {
+}
+header {
 	height: 200px;
 	display: flex;
 	padding: 20px;
 	align-items: center;
-  }
-  header h2 {
+}
+header h2 {
 	flex: 1.4;
 	display: flex;
 	margin-right: 30px;
 	margin-left: 30px;
 	font-size: 4vw;
-	font-family: "Arima Madurai";
 	font-weight: lighter;
 	color: #2f2fa2;
-  }
-  header nav {
+}
+header nav {
 	flex: 1;
 	/*This means it will span across the whole row*/
-  }
-  header nav ul {
+}
+header nav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-  }
-  header nav ul li {
+}
+header nav ul li {
 	display: inline-block;
-	
-  }
-  /* header nav ul li a {
+}
+/* header nav ul li a {
 	background-color: #ff7e9a;
 	text-decoration: none;
 	font-size: 28px;
@@ -373,49 +334,17 @@ li{
 	transition: all 0.2s linear;
 	transition-property: background-color, color, box-shadow;
   } */
-  .btn {
+.btn {
 	display: inline-block;
 	padding: 7px;
 	zoom: 1;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 @media screen and (max-width: 480px) {
-
 	.social-panel-container.visible {
 		transform: translateX(0px);
 	}
-	
+
 	.floating-btn {
 		right: 10px;
 	}

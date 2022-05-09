@@ -1,9 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
 
 body {
-  font-family: "Arima Madurai", sans-serif;
+  /* font-family: "Arima Madurai", sans-serif; */
+  font-family: 'Catamaran', sans-serif;
 }
 
 
@@ -30,7 +32,6 @@ body {
 
 
 .button {
-  /* --color: #00A97F; */
   --color: #2f2fa2;
   padding: 8px;
   background-color: transparent;
@@ -39,11 +40,9 @@ body {
   overflow: hidden;
   cursor: pointer;
   transition: .3s;
-  /* font-weight: bold; */
   font-size: 23px;
   border: none;
   text-decoration: underline;
-  font-family: inherit;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--color);
@@ -189,6 +188,10 @@ body {
   max-width: 38em;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
+  border: 1px;
+  border-style: solid;
+  border-radius: 8px;
 }
 
 .questions-section > h2 {
@@ -229,12 +232,12 @@ section > h1 {
   background-color: #0077b5;
 }
 .content-footer > p {
-  font-size: 1.3em;
+  font-size: 1.9em;
   font-weight: bold;
   color: black;
 }
 .social > li > a {
-  font-size: 1.3em;
+  font-size: 1.6em;
   text-decoration: none;
   color: white;
 }
@@ -257,7 +260,6 @@ header h2 {
   margin-right: 30px;
   margin-left: 30px;
   font-size: 4vw;
-  font-family: "Arima Madurai";
   font-weight: lighter;
   color: #2f2fa2;
 }

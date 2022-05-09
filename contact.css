@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap");
 
 body {
-	font-family: "Arima Madurai", sans-serif;
+	font-family: "Catamaran", sans-serif;
 }
 .contact {
 	display: flex;
@@ -70,7 +71,6 @@ header h2 {
 	margin-right: 30px;
 	margin-left: 30px;
 	font-size: 4vw;
-	font-family: "Arima Madurai";
 	font-weight: lighter;
 	color: #2f2fa2;
 }
