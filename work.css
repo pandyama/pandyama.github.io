@@ -1,31 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
 
 
-body {
-	font-family: 'Catamaran', sans-serif;
+body, button {
+	font-family: 'Exo', sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
 .course {
 	background-color: #fff;
 	border-radius: 10px;
-	/* box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2); */
 	box-shadow: 7px 10px 24px 5px rgba(0,0,0,0.5);
 	display: flex;
 	max-width: 100%;
 	margin: 20px;
 	overflow: hidden;
-	/* width: 700px; */
 	width: 50em;
 }
 
@@ -58,7 +47,6 @@ li{
 	color: #fff;
 	padding: 30px;
 	width: 20em;
-	/* max-width: 250px; */
 }
 
 .course-info {
@@ -67,15 +55,10 @@ li{
 	width: 100%;
 }
 
-
-
-
-
 @media all and (max-width: 1000px){
 	.course {
 		background-color: #fff;
 		border-radius: 10px;
-		/* box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2); */
 		box-shadow: 7px 10px 24px 5px rgba(0,0,0,0.5);
 		display: flex;
 		max-width: 100%;
@@ -89,13 +72,11 @@ li{
 	
 	.course h2 {
 		letter-spacing: 1px;
-		/* margin: 10px 0; */
 	}
 	
 	.course-preview {
 		background-color: #2A265F;
 		color: #fff;
-		/* padding: 30px; */
 		width: 10em;
 	}
 	
@@ -154,7 +135,6 @@ li{
    }
    
    .button:hover {
-	/* color: rgb(10, 25, 30); */
 	color: white;
 	text-decoration: none;
    }
@@ -162,18 +142,6 @@ li{
    .button:active {
 	filter: brightness(.8);
    }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .jobs{
@@ -257,7 +225,6 @@ li{
   .questions-section > h2 {
 	font-size: 1.4em;
 	font-weight: bold;
-	/* Layout */
 	font-style: italic;
 	margin: 2em 0 1em 0;
   }

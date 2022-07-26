@@ -2,10 +2,12 @@
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
 
-body {
+body, button {
   /* font-family: "Arima Madurai", sans-serif; */
-  font-family: 'Catamaran', sans-serif;
+  /* font-family: 'Catamaran', sans-serif; */
+  font-family: 'Exo';
 }
 
 
