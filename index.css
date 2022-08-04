@@ -1,58 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manjari&display=swap");
 
-body, button {
+body,
+button {
   /* font-family: "Arima Madurai", sans-serif; */
   /* font-family: 'Catamaran', sans-serif; */
-  font-family: 'Exo';
+  font-family: "Manjari";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .button {
   --color: #2f2fa2;
   padding: 8px;
   background-color: transparent;
-  border-radius: .3em;
+  border-radius: 0.3em;
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
   font-size: 23px;
   border: none;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--color);
   z-index: 1;
- }
- 
- .button::before, .button::after {
-  content: '';
+}
+
+.button::before,
+.button::after {
+  content: "";
   display: block;
   width: 50px;
   height: 50px;
@@ -62,64 +44,33 @@ body, button {
   z-index: -1;
   background-color: var(--color);
   transition: 0.8s ease;
- }
- 
- .button::before {
+}
+
+.button::before {
   top: -1em;
   left: -1em;
- }
- 
- .button::after {
+}
+
+.button::after {
   left: calc(100% + 1em);
   top: calc(100% + 1em);
- }
- 
- .button:hover::before, .button:hover::after {
+}
+
+.button:hover::before,
+.button:hover::after {
   height: 410px;
   width: 410px;
- }
- 
- .button:hover {
+}
+
+.button:hover {
   /* color: rgb(10, 25, 30); */
   color: white;
   text-decoration: none;
- }
- 
- .button:active {
-  filter: brightness(.8);
- }
- 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.button:active {
+  filter: brightness(0.8);
+}
 
 .circles {
   position: absolute;
@@ -275,7 +226,6 @@ header nav ul {
 }
 header nav ul li {
   display: inline-block;
-  
 }
 /* header nav ul li a {
   background-color: #ff7e9a;
@@ -301,7 +251,7 @@ header nav ul li.active a {
   transition: all 0.2s linear;
   transition-property: background-color, color, box-shadow;
 } */
- .btn {
+.btn {
   display: inline-block;
   padding: 20px;
   zoom: 1;
