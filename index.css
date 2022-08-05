@@ -6,12 +6,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manjari&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
 
 body,
 button {
-  /* font-family: "Arima Madurai", sans-serif; */
-  /* font-family: 'Catamaran', sans-serif; */
-  font-family: "Manjari";
+  font-family: "Hubballi";
 }
 
 .button {
@@ -150,7 +149,6 @@ button {
 .questions-section > h2 {
   font-size: 1.4em;
   font-weight: bold;
-  /* Layout */
   font-style: italic;
 }
 section > h1 {
@@ -242,30 +240,6 @@ header nav ul {
 header nav ul li {
   display: inline-block;
 }
-/* header nav ul li a {
-  background-color: #ff7e9a;
-  text-decoration: none;
-  font-size: 28px;
-  color: black;
-  padding: 8px;
-  border-radius: 8px;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-}
-
-header nav ul li a:hover {
-  background-color: white;
-  color: black;
-  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.5);
-  transition: all 0.2s linear;
-  transition-property: background-color, color, box-shadow;
-}
-header nav ul li.active a {
-  background-color: white;
-  color: black;
-  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.5);
-  transition: all 0.2s linear;
-  transition-property: background-color, color, box-shadow;
-} */
 .btn {
   display: inline-block;
   padding: 20px;
