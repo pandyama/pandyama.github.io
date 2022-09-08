@@ -5,7 +5,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Manjari&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
 
-body,
+body {
+  background: rgb(50, 50, 50);
+  background: linear-gradient(
+    0deg,
+    rgba(50, 50, 50, 1) 0%,
+    rgba(89, 89, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  font-family: "Hubballi";
+}
 button {
   font-family: "Hubballi";
 }
@@ -114,7 +123,6 @@ li {
   transition: 0.3s;
   font-size: 23px;
   border: none;
-  /* text-decoration: underline; */
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--color);
@@ -246,7 +254,6 @@ li {
 .questions-section > h2 {
   font-size: 1.4em;
   font-weight: bold;
-  /* Layout */
   font-style: italic;
   margin: 2em 0 1em 0;
 }
@@ -262,7 +269,6 @@ section > h1 {
   margin: 50px 0;
   padding: 20px 0;
   text-align: center;
-  background-color: white;
   text-decoration: none;
 }
 .social > li {
