@@ -4,9 +4,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
-body,
+body {
+  background: rgb(50, 50, 50);
+  background: linear-gradient(
+    0deg,
+    rgba(50, 50, 50, 1) 0%,
+    rgba(89, 89, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  font-family: "Hubballi";
+}
 button {
-  font-family: "Varela Round";
+  font-family: "Hubballi";
 }
 .contact {
   display: flex;
@@ -26,7 +35,6 @@ section > h1 {
   margin: 50px 0;
   padding: 20px 0;
   text-align: center;
-  background-color: white;
   text-decoration: none;
 }
 .social > li {
