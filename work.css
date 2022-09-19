@@ -41,7 +41,7 @@ button {
 
 li {
   margin: 0.8em;
-  font-size: 18px;
+  font-size: 23px;
 }
 
 .course h5 {
@@ -124,7 +124,7 @@ li {
   overflow: hidden;
   cursor: pointer;
   transition: 0.3s;
-  font-size: 23px;
+  font-size: 30px;
   border: none;
   text-transform: uppercase;
   letter-spacing: 0.2em;

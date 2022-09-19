@@ -13,7 +13,7 @@ body {
   background: linear-gradient(
     0deg,
     rgba(50, 50, 50, 1) 0%,
-    rgba(89, 89, 255, 1) 0%,
+    rgb(129, 129, 255) 0%,
     rgba(255, 255, 255, 1) 100%
   );
   font-family: "Hubballi";
@@ -31,7 +31,7 @@ button {
   overflow: hidden;
   cursor: pointer;
   transition: 0.3s;
-  font-size: 23px;
+  font-size: 30px;
   border: none;
   text-transform: uppercase;
   letter-spacing: 0.2em;
