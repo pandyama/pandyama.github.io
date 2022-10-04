@@ -8,8 +8,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Manjari&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
 
+@media screen and (max-width: 1360px) {
+  .btn {
+    padding: 20px;
+    font-size: 10px;
+  }
+}
+
 body {
-  background: rgb(50, 50, 50);
+  /* background: rgb(255, 255, 255); */
   background: linear-gradient(
     0deg,
     rgba(50, 50, 50, 1) 0%,
@@ -31,7 +38,8 @@ button {
   overflow: hidden;
   cursor: pointer;
   transition: 0.3s;
-  font-size: 23px;
+  font-size: 26px;
+  font-weight: bold;
   border: none;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -155,12 +163,12 @@ button {
 }
 
 .questions-section > h2 {
-  font-size: 1.4em;
+  font-size: 1.8em;
   font-weight: bold;
   font-style: italic;
 }
 section > h1 {
-  font-size: 1.6em;
+  font-size: 1.8em;
 }
 .content-footer,
 .masthead-heading,
@@ -205,12 +213,12 @@ section > h1 {
   background-color: #0077b5;
 }
 .content-footer > p {
-  font-size: 1.9em;
+  font-size: 2.4em;
   font-weight: bold;
   color: black;
 }
 .social > li > a {
-  font-size: 1.6em;
+  font-size: 2.4em;
   text-decoration: none;
   color: white;
 }
@@ -250,5 +258,5 @@ header nav ul li {
 .btn {
   display: inline-block;
   padding: 20px;
-  zoom: 1;
+  /* zoom: 1; */
 }
