@@ -254,8 +254,9 @@ header h2 {
   display: flex;
   margin-right: 30px;
   margin-left: 30px;
-  font-size: 4vw;
-  font-weight: lighter;
+  font-size: 3vw;
+  font-weight: 600;
+  letter-spacing: 4px;
   color: #2f2fa2;
 }
 header nav {
