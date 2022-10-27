@@ -6,17 +6,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
 
 body {
-  background: rgb(50, 50, 50);
-  background: linear-gradient(
+  background: #EBEBEB;
+  /* background: linear-gradient(
     0deg,
     rgba(50, 50, 50, 1) 0%,
     rgba(89, 89, 255, 1) 0%,
     rgba(255, 255, 255, 1) 100%
-  );
-  font-family: "Hubballi";
+  ); */
+  font-family: "Catamaran";
 }
 button {
-  font-family: "Hubballi";
+  font-family: "Catamaran";
 }
 
 .course {
@@ -177,69 +177,6 @@ li {
   flex-direction: column;
 }
 
-.circles {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1;
-}
-.circles li {
-  position: absolute;
-  display: block;
-  list-style: none;
-  width: 20px;
-  height: 20px;
-  background: rgba(0, 0, 0, 0.2);
-  animation: animate 25s linear infinite;
-  bottom: -150px;
-}
-.circles li:nth-child(1) {
-  left: 25%;
-  width: 80px;
-  height: 80px;
-  animation-delay: 0s;
-}
-.circles li:nth-child(2) {
-  left: 10%;
-  width: 20px;
-  height: 20px;
-  animation-delay: 2s;
-  animation-duration: 12s;
-}
-.circles li:nth-child(3) {
-  left: 70%;
-  width: 20px;
-  height: 20px;
-  animation-delay: 4s;
-}
-.circles li:nth-child(4) {
-  left: 40%;
-  width: 60px;
-  height: 60px;
-  animation-delay: 0s;
-  animation-duration: 18s;
-}
-.circles li:nth-child(5) {
-  left: 65%;
-  width: 20px;
-  height: 20px;
-  animation-delay: 0s;
-}
-@keyframes animate {
-  0% {
-    transform: translateY(-1300px) rotate(0deg);
-    opacity: 1;
-    border-radius: 20%;
-  }
-  100% {
-    transform: translateY(0) rotate(720deg);
-    opacity: 0;
-    border-radius: 50%;
-  }
-}
 .introduction-section,
 .location-section,
 .questions-section {
@@ -348,4 +285,25 @@ header nav ul li {
   .floating-btn {
     right: 10px;
   }
+}
+
+.navMenu {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+}
+
+.navMenu a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  padding: 10px;
+}
+
+.navMenu a:hover {
+  color: black;
+  font-weight: bolder;
 }
