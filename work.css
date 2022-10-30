@@ -289,9 +289,10 @@ header nav ul li {
 }
 
 .navMenu {
-  position: absolute;
-  top: 10%;
-  left: 70%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navMenu a {
