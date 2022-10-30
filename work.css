@@ -32,10 +32,8 @@ button {
 .course h6 {
   opacity: 0.8;
   margin: 0;
-  letter-spacing: 2px;
-  text-transform: uppercase;
   font-weight: 100;
-  font-size: 15px;
+  font-size: 19px;
 }
 
 li {
@@ -44,7 +42,7 @@ li {
 }
 
 .course h5 {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 200;
 }
 
@@ -70,7 +68,8 @@ li {
 }
 
 .course-preview {
-  background-color: #2a265f;
+  /* background-color: #2a265f; */
+  background-color: #333333;
   color: #fff;
   padding: 30px;
   width: 20em;
