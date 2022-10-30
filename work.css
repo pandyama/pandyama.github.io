@@ -4,19 +4,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manjari&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
 
 body {
-  background: #EBEBEB;
+  background: #FFFBFE;
   /* background: linear-gradient(
     0deg,
     rgba(50, 50, 50, 1) 0%,
     rgba(89, 89, 255, 1) 0%,
     rgba(255, 255, 255, 1) 100%
   ); */
-  font-family: "Catamaran";
+  font-family: "Sen";
 }
 button {
-  font-family: "Catamaran";
+  font-family: "Sen";
 }
 .course {
   background-color: #fff;
@@ -255,9 +257,6 @@ header h2 {
   margin-right: 30px;
   margin-left: 30px;
   font-size: 3vw;
-  font-weight: 600;
-  letter-spacing: 4px;
-  color: #2f2fa2;
 }
 header nav {
   flex: 1;
