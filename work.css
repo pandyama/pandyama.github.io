@@ -246,9 +246,8 @@ section > h1 {
   position: absolute;
 }
 header {
-  height: 200px;
   display: flex;
-  padding: 20px;
+  margin-bottom: 30px;
   align-items: center;
 }
 header h2 {
@@ -304,6 +303,7 @@ header nav ul li {
 }
 
 .navMenu a:hover {
-  color: black;
-  font-weight: bolder;
+  color: rgb(28, 69, 255);
+  text-decoration: underline;
+  font-weight: 500;
 }
