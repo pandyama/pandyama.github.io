@@ -11,6 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Petrona&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap');
 
 @media screen and (max-width: 1360px) {
   .btn {
@@ -28,10 +29,10 @@ body {
     rgb(129, 129, 255) 0%,
     rgba(255, 255, 255, 1) 100%
   ); */
-  font-family: "Syne";
+  font-family: "Radio Canada";
 }
 button {
-  font-family: "Syne";
+  font-family: "Radio Canada";
 }
 
 .button {
